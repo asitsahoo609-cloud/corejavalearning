@@ -1,0 +1,14 @@
+package shauryax.div;
+
+public class DivTwoIntNumbers {
+    public static void main(String[] args){
+
+        int x = 20;
+        int y = 5;
+        int z = x / y;
+
+        System.out.println("Divide two int numbers " +z);
+
+    }
+
+}
