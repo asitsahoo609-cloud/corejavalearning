@@ -1,10 +1,13 @@
 package shauryax.addition;
 
+import java.util.Scanner;
+
 public class AddlongNumberTest {
     public static void main(String[] args){
 
         AddlongNumber addlongNumber =  new AddlongNumber();
         addlongNumber.addition();
+        Scanner scanner = new Scanner(System.in);
         addlongNumber.additionByParameter(5l,6l);
 
         long asit = addlongNumber.addtionAndReturnValue();
